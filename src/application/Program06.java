@@ -41,6 +41,7 @@ public class Program06 {
 		conta.withdrawal(value);
 		System.out.printf("Updated account data:%n%s%n", conta);
 		
+		sc.close();
 	}
 
 }
